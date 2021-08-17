@@ -1,0 +1,13 @@
+[display]
+lcd_type: hd44780
+d4_pin: EXP1_5
+d5_pin: EXP1_6
+d6_pin: EXP1_7
+d7_pin: EXP1_8
+rs_pin: EXP1_4
+e_pin: EXP1_3
+encoder_pins: ^EXP2_3, ^EXP2_5
+click_pin: ^!EXP1_2
+
+[output_pin beeper]
+pin: EXP1_1
